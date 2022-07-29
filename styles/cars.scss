@@ -27,6 +27,9 @@ main {
             }
         }
     }
+    .car-details{
+        margin-bottom: 2rem;
+    }
 
     .infos {
         span {
@@ -38,6 +41,7 @@ main {
     .car-details_img {
         i {
             margin: auto 0;
+            cursor: pointer;
         }
     }
 

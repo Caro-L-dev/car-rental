@@ -20,14 +20,6 @@
     align-items: center;
 }
 
-.justify-around {
-    justify-content: space-around;
-}
-
-.justify-evenly {
-    justify-content: space-evenly;
-}
-
 .justify-end {
     justify-content: flex-end;
 }
@@ -35,3 +27,7 @@
 .justify-between {
     justify-content: space-between;
 }
+
+body{
+    font-family: sans-serif;
+};
