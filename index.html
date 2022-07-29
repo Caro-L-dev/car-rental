@@ -13,18 +13,29 @@
 <body>
 
     <!-- === HEADER START === -->
-
-    <!-- BURGER START -->
-    <div class="flex justify-end">
-        <div id="burger flex flex-column align-center justify-center">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <!-- BURGER END -->
-
     <header class="header flex flex-column justify-between">
+
+        <!-- BURGER START -->
+
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
+            <ul>
+                <li><a href="#">Louer une voiture</a></li>
+                <li><a href="#">Louer un utilitaire</a></li>
+                <li><a href="#">Réserver un chauffeur</a></li>
+                <li><a href="#">Découvrez nos agences</a></li>
+                <li><a href="#">Mon Compte</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <a href="#" id="openBtn">
+            <span class="burger-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </a>
+        <!-- BURGER END -->
+
         <div>
             <h1>Bienvenue à bord</h1>
             <p>Location de voiture 24h/24 et 7j/7</p>
@@ -41,9 +52,6 @@
                     <input class="input" type="text" placeholder="Fin de location">
                     <button>Valider ma recherche</button>
                 </div>
-
-
-
             </form>
         </div>
     </header>
@@ -55,7 +63,7 @@
         <div class="infos flex justify-between">
             <p>
                 <span>
-                    x
+                    7
                 </span> résultats
             </p>
 
@@ -174,6 +182,8 @@
         </ul>
     </footer>
     <!-- === FOOTER END === -->
+
+    <script src="app.js"></script>
 </body>
 
 </html>
