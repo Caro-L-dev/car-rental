@@ -90,7 +90,7 @@ table {
   text-shadow: 0px 1px 0px #ffffff;
 }
 .header form .rental-filter {
-  background-color: rgba(216, 216, 216, 0.3);
+  background-color: rgba(216, 216, 216, 0.7);
   padding: 0 0.5rem;
   padding-right: 0;
   margin: 0 auto;
@@ -133,7 +133,8 @@ table {
   form .rental-filter {
     max-width: 600px;
   }
-  form select, form input {
+  form select,
+form input {
     margin-bottom: 0.5rem;
   }
   form button {
@@ -149,6 +150,25 @@ table {
 
   .header form button {
     margin-left: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  select,
+.input {
+    width: 100%;
+  }
+
+  input {
+    max-width: 410px;
+  }
+
+  .header form .rental-filter {
+    max-width: 430px;
   }
 }
 main {
@@ -235,6 +255,23 @@ main .car-details__infos button:hover {
     display: none;
   }
 }
+@media only screen and (max-width: 500px) {
+  main {
+    margin: 2rem 3rem;
+  }
+
+  main .car-details__infos {
+    margin: auto 0;
+  }
+
+  .car-details_img img {
+    height: 100px;
+  }
+
+  .car-details__infos button {
+    font-size: 12px;
+  }
+}
 footer {
   margin: 0 auto;
   margin-top: 5rem;
@@ -254,6 +291,12 @@ footer a {
   color: black;
 }
 
+@media only screen and (max-width: 500px) {
+  footer {
+    margin: 2rem 3rem;
+    font-size: 12px;
+  }
+}
 /* === REUSABLE CLASSES === */
 .flex {
   display: flex;

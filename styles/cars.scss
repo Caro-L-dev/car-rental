@@ -100,3 +100,26 @@ main {
         
     }
 }
+
+@media only screen and (max-width: 500px) {
+    main{
+        margin: 2rem 3rem;
+    }
+
+    main .car-details__infos{
+        margin: auto 0;
+    }
+
+    .car-details_img {
+        img {
+            height: 100px;
+        }
+    }
+    .car-details__infos{
+        button{
+            font-size: 12px;
+        }
+
+        
+    }
+}

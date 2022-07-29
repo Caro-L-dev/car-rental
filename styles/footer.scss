@@ -19,3 +19,10 @@ footer {
         color: black;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    footer{
+        margin: 2rem 3rem;
+        font-size: 12px;
+    }
+}
