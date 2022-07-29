@@ -130,13 +130,25 @@ table {
 }
 
 @media only screen and (max-width: 768px) {
-  form {
-    max-width: 300px;
+  form .rental-filter {
+    max-width: 600px;
   }
-  form select, form input, form button {
-    margin-top: 1rem;
+  form select, form input {
+    margin-bottom: 0.5rem;
+  }
+  form button {
     width: 100%;
     box-sizing: border-box;
+    margin-left: 0;
+  }
+
+  .header form .rental-filter {
+    padding: 0 1rem;
+    padding-right: -5rem;
+  }
+
+  .header form button {
+    margin-left: 0;
   }
 }
 main {
@@ -205,6 +217,24 @@ main .car-details__infos button:hover {
   background-color: #68a54b;
 }
 
+@media only screen and (max-width: 768px) {
+  main {
+    margin: 2rem 3rem;
+  }
+
+  main .car-details__infos {
+    margin: auto 0;
+  }
+
+  .car-details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .car-details__infos h2, .car-details__infos p {
+    display: none;
+  }
+}
 footer {
   margin: 0 auto;
   margin-top: 5rem;

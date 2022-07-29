@@ -78,3 +78,25 @@ main {
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+    main{
+        margin: 2rem 3rem;
+    }
+
+    main .car-details__infos{
+        margin: auto 0;
+    }
+
+    .car-details{
+        display: flex;
+        justify-content: space-between;
+    }
+    .car-details__infos{
+        h2,p{
+            display: none;
+        }
+
+        
+    }
+}
