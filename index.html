@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41d6b020fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Location de voitures</title>
+</head>
+
+<body>
+
+    <!-- === HEADER START === -->
+
+    <!-- BURGER START -->
+    <div class="flex justify-end">
+        <div id="burger flex flex-column align-center justify-center">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- BURGER END -->
+
+    <header class="header flex flex-column justify-between">
+        <div>
+            <h1>Bienvenue à bord</h1>
+            <p>Location de voiture 24h/24 et 7j/7</p>
+        </div>
+        <div>
+            <form class="flex" action="#">
+                <div>
+                    <select name="rentalAdress">
+                        <option value="">Adresse de départ</option>
+                    </select>
+
+                    <input type="text" placeholder="Début de location">
+                    <input type="text" placeholder="Fin de location">
+                </div>
+
+                <button>Valider ma recherche</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- === HEADER END === -->
+
+    <!-- === MAIN START === -->
+    <main>
+        <div class="infos flex justify-between">
+            <p>
+                <span>
+                    x
+                </span> résultats
+            </p>
+
+            <form class="filter-car" action="#">
+                <select name="filter">
+                    <option value="">Prix croissant</option>
+                </select>
+            </form>
+        </div>
+
+        <!-- CAR DETAILS START -->
+        <div class="car-details flex">
+
+            <div class="car-details_img flex">
+                <i class="fas fa-caret-left"></i>
+                <div>
+                    <img src="./assets/images/vehicule1.png" alt="Vehicule 01">
+                </div>
+                <i class="fas fa-caret-right"></i>
+            </div>
+
+            <div class="car-details__infos">
+                <h2>Peugeot 208</h2>
+                <p>Diesel, 5 portes, GPS, AutoRadio, Forfait 1000km (0.5/km supplémentaires).</p>
+                <p>999€ - Agence de Paris</p>
+                <button>Réserver et Payer</button>
+            </div>
+        </div>
+        <!-- CAR DETAILS END -->
+    </main>
+    <!-- === MAIN END === -->
+
+    <!-- === FOOTER START === -->
+    <footer class="flex align-center">
+        <img src="./assets/images/agence.jpg" alt="Agency">
+        <ul>
+            <li>
+                <p>Notre Agence de <span>Paris</span></p>
+            </li>
+            <li>
+                <p>
+                    300 boulevard de Vaugirard, 75015, Paris
+                </p>
+            </li>
+            <li>
+                <p>
+                    Ouvert 7j/7 de 09h à 13h et de 14h à 20h
+                </p>
+            </li>
+            <li>
+                <a href="tel:+33149782133">01 49 78 21 33</a>
+            </li>
+            <li>
+                <a href="mailto:contact@vtc.com">contact@vtc.com</a>
+            </li>
+        </ul>
+    </footer>
+    <!-- === FOOTER END === -->
+</body>
+
+</html>

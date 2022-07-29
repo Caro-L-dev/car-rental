@@ -1,0 +1,76 @@
+main {
+    max-width: 900px;
+    margin-bottom: 1rem;
+    margin: 1rem auto;
+    justify-content: center;
+
+    .filter-car {
+        select {
+            box-shadow: inset 0px 1px 0px 0px #ffffff;
+            background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            border: 1px solid #dcdcdc;
+            display: inline-block;
+            cursor: pointer;
+            color: #666666;
+            font-family: Arial;
+            font-size: 15px;
+            font-weight: bold;
+            padding: .5rem;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #ffffff;
+
+            &:hover {
+                background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+                background-color: #e9e9e9;
+            }
+        }
+    }
+
+    .infos {
+        span {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+
+    .car-details_img {
+        i {
+            margin: auto 0;
+        }
+    }
+
+    .car-details__infos {
+        margin: auto 2rem;
+
+        h2 {
+            font-weight: bold;
+            font-size: 1rem;
+            margin-bottom: .5rem;
+        }
+
+        p {
+            margin-top: .5rem;
+        }
+
+        button {
+            box-shadow: inset 0px 1px 0px 0px #9acc85;
+            background: linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+            background-color: #74ad5a;
+            border: 1px solid #3b6e22;
+            border-radius: .5rem;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-weight: bold;
+            padding: .6rem;
+            margin-top: 1rem;
+        }
+
+        button:hover {
+            background: linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+            background-color: #68a54b;
+        }
+    }
+}
